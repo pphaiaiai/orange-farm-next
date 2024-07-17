@@ -28,7 +28,7 @@ const Login: React.FC = () => {
 
       if (response) {
         console.log("Login successful:", response)
-        // router.push('/orange')
+        router.push('/orange')
       } else {
         setError(
           "Login failed. Please check your email or password and try again."

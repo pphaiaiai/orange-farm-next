@@ -7,7 +7,7 @@ const axiosInstance = axios.create({
     'Content-Type': 'application/json',
     // Add all custom headers here
   },
-  // withCredentials: true,
+  withCredentials: true,
 })
 
 interface FetchDataOptions extends AxiosRequestConfig {}
